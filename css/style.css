@@ -23,7 +23,7 @@
 }
 
 .container{
-  margin-top: 5%;
+  margin-top: 3%;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .debug > .container:first-child{
-  height: 100px;
+  height: 60px;
 }
 
 .debug .img-blue{
@@ -44,16 +44,16 @@
 
 /* modifiche padding smartphone */
 @media screen and (max-width: 768px) {
-  div{
-    padding-bottom: 5%;
+  .container [class*="col-"]{
+    padding-bottom: 10%;
   }
 }
 /* /modifiche padding smartphone */
 
 /* modifiche padding tablet */
 @media screen and (max-width: 992px) and (min-width: 769px) {
-  div:{
-    padding-bottom: 3%;
+  .container [class*="col-"]{
+    padding-bottom: 5%;
   }
 }
 /* modifiche padding tablet */
