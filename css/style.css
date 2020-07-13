@@ -5,7 +5,7 @@
 }
 
 .debug img{
-  max-height: 150px;
+  max-height: 200px;
   width: auto;
 }
 
@@ -47,6 +47,10 @@
   .container [class*="col-"]{
     padding-bottom: 10%;
   }
+  .debug img{
+    max-height: 100px;
+    width: auto;
+  }
 }
 /* /modifiche padding smartphone */
 
@@ -54,6 +58,10 @@
 @media screen and (max-width: 992px) and (min-width: 769px) {
   .container [class*="col-"]{
     padding-bottom: 5%;
+  }
+  .debug img{
+    max-height: 150px;
+    width: auto;
   }
 }
 /* modifiche padding tablet */
