@@ -1,0 +1,59 @@
+/* general */
+.debug h2{
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.debug img{
+  max-height: 150px;
+  width: auto;
+}
+
+.debug h3{
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.debug p{
+  padding: 0 10px;
+}
+
+.debug [class*="col-"]{
+  height: 100%;
+}
+
+.container{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.bgcolor-grey{
+  background-color: #F9F9F9;
+}
+
+.debug > .container:first-child{
+  height: 100px;
+}
+
+.debug .img-blue{
+  background-color: #428BCA;
+  border-radius: 50%;
+  padding: 30px;
+}
+/* /general */
+
+/* modifiche padding smartphone */
+@media screen and (max-width: 768px) {
+  div{
+    padding-bottom: 5%;
+  }
+}
+/* /modifiche padding smartphone */
+
+/* modifiche padding tablet */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  div{
+    padding-bottom: 3%;
+  }
+}
+/* modifiche padding tablet */
