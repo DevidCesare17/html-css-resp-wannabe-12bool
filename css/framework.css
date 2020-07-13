@@ -19,6 +19,7 @@
 [class*="col-"]{
   float: left;
 }
+/* /framework */
 
 /* colonne desktop >993px*/
 @media screen and (min-width: 993px){
