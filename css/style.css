@@ -1,7 +1,6 @@
 /* general */
 .debug h2{
   font-size: 35px;
-  margin-bottom: 10px;
 }
 
 .debug img{
@@ -29,10 +28,6 @@
 
 .bgcolor-grey{
   background-color: #F9F9F9;
-}
-
-.debug > .container:first-child{
-  height: 60px;
 }
 
 .debug .img-blue{
